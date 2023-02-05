@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/card_view4"
+        app:layout_constraintEnd_toStartOf="@+id/card_view2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:scaleX="1.6"
+                android:scaleY="1.6"
+                tools:ignore="UselessParent">
+
+                <ImageButton
+                    android:id="@+id/imageButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/cardbutton1"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/mid_187_hound_tamer" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view2"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/card_view5"
+        app:layout_constraintEnd_toStartOf="@+id/card_view3"
+        app:layout_constraintStart_toEndOf="@+id/card_view"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/cardImage2"
+            app:srcCompat="@drawable/tovalar" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view3"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/card_view6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/card_view2"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/cardImage3"
+            app:srcCompat="@drawable/spellbreaker_behemoth" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view4"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="4dp"
+        app:layout_constraintBottom_toTopOf="@id/card_view7"
+        app:layout_constraintEnd_toStartOf="@+id/card_view5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_view">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/cardImage4"
+            app:srcCompat="@drawable/incinerator" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view5"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/card_view8"
+        app:layout_constraintEnd_toStartOf="@+id/card_view6"
+        app:layout_constraintStart_toEndOf="@+id/card_view4"
+        app:layout_constraintTop_toBottomOf="@+id/card_view2">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/cardImage5"
+            app:srcCompat="@drawable/_728012_0alavaglidepathway" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view6"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/card_view9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/card_view5"
+        app:layout_constraintTop_toBottomOf="@+id/card_view3">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/cardImage6"
+            app:srcCompat="@drawable/nahiri"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view7"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:cardCornerRadius="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/card_view8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_view4">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/cardImage7"
+            app:srcCompat="@drawable/m21_313_forest" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view8"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:cardCornerRadius="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/card_view9"
+        app:layout_constraintStart_toEndOf="@+id/card_view7"
+        app:layout_constraintTop_toBottomOf="@+id/card_view5">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/cardImage8"
+            app:srcCompat="@drawable/xenagos" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view9"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        app:cardCornerRadius="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/card_view8"
+        app:layout_constraintTop_toBottomOf="@+id/card_view6">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/cardImage9"
+            app:srcCompat="@drawable/forest_zendikar" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:alpha="1"
+        android:clickable="false"
+        android:contentDescription="@string/cardImage1"
+        android:focusable="auto"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mid_187_hound_tamer" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

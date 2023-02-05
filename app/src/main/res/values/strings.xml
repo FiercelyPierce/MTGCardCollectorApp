@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MTGCollector</string>
+    <string name="cardImage1">cardImage1</string>
+    <string name="cardImage2">cardImage2</string>
+    <string name="cardImage3">cardImage3</string>
+    <string name="cardImage4">cardImage4</string>
+    <string name="cardImage5">cardImage5</string>
+    <string name="cardImage6">cardImage6</string>
+    <string name="cardImage7">cardImage7</string>
+    <string name="cardImage8">cardImage8</string>
+    <string name="cardImage9">cardImage9</string>
+    <string name="cardbutton1">cardButton1</string>
+</resources>
