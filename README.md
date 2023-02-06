@@ -1,20 +1,16 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+I am trying to make an app that displays cards that I add to the database, but right now it just holds a few images and I can get one of them to pop up.
 
-{Provide a description of your app.  Describe how to use the app.}
-
-{Describe your purpose for creating this app.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the app running and a walkthrough of the code.}
+I want it to work dynamically with my webpage that I made for my last project a couple of weeks ago. After adding cards to the database through the webapp, I want to view them here in the mobile app version.
 
 [Mobile App Demo Video](https://youtu.be/jFRK1P-Ru-8)
 
 # Development Environment
 
-{Describe the tools that you used to develop the app}
+I used Android Studio to develop the app
 
-{Describe the programming language that you used and any libraries.}
+I used Java for the entierty of it.
 
 # Useful Websites
 
@@ -25,6 +21,5 @@
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
-* 
-* 
-* 
+* Make the image show over the smaller images
+* Have the other small images to pop up like the one I have already
